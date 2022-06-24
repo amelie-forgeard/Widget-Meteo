@@ -1,6 +1,7 @@
 import WeatherWidget from '../src/weather/WeatherWidget';
+import "./App.scss"
 
-function App() {
+export default function App() {
     return (
         <div className="app">
             <WeatherWidget />
@@ -8,4 +9,4 @@ function App() {
     );
 }
 
-export default App;
+
